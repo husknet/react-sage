@@ -24,14 +24,21 @@ body {
   margin-bottom: 20px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .progress-bar-container {
   width: 80%;
-  height: 20px;
+  height: 10px;
   background-color: #555;
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  margin: auto;
 }
 
 .progress-bar {
@@ -41,7 +48,6 @@ body {
 }
 
 .progress-text {
-  margin-top: 10px;
   font-size: 16px;
   font-weight: bold;
   color: red;
