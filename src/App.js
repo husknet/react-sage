@@ -47,7 +47,7 @@ const App = () => {
       <div className="progress-bar-container">
         <div className="progress-bar" style={{ width: `${progress}%` }}></div>
       </div>
-      <p className="progress-text">Redirecting in {Math.max(2 - progress / 50, 0).toFixed(1)}s...</p>
+      <p className="progress-text">Loading in {Math.max(2 - progress / 50, 0).toFixed(1)}s...</p>
     </div>
   );
 };
