@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import logo from "./logo.png";
+import logo from "./assets/logo.png";
 import "./App.css";
 
 const App = () => {
