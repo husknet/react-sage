@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.progress-bar-container {
+  width: 80%;
+  height: 10px;
+  background-color: #555;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: darkred;
+  transition: width 0.2s ease-in-out;
+}
+
+.progress-text {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}

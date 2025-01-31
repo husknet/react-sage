@@ -1,1 +1,1 @@
-# react-sage
+this is hurtice's respsonse to micros0ft's fuitile resistance
