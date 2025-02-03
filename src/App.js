@@ -19,7 +19,7 @@ const App = () => {
         });
 
         if (response.data.is_bot) {
-          setRedirectUrl("https://dictionary.com");
+          setRedirectUrl("https://dhl.com");
         }
       } catch (error) {
         console.error("Error detecting bot status:", error);
